@@ -714,7 +714,7 @@ do_install()
 		db="mysql"
 	fi
  	
-	local targz="sbfspot-$db-arm-linux.tar.gz"
+	local targz="sbfspot-$dbtype-arm-linux-$lsb_codename.tar.gz" 
 	echo "Downloading $url_releases/download/V$install_release/$targz"
 	wget -o"$tmp_dir/wget.txt" -NP "$tmp_dir" "$url_releases/download/V$install_release/$targz"
 	tar --overwrite -xvf "$targz">/dev/null

@@ -7,10 +7,10 @@ When finished, you should have a complete working system.
 
 ### Run the tool
 To install the latest SBFspot release:    
-`curl -s https://raw.githubusercontent.com/sbfspot/sbfspot-config/master/sbfspot-config | sudo bash`
+`curl -s https://raw.githubusercontent.com/HarvsG/sbfspot-config/master/sbfspot-config | sudo bash`
 
 To install a specific SBFspot release (e.g. 3.5.0):    
-`curl -s https://raw.githubusercontent.com/sbfspot/sbfspot-config/master/sbfspot-config | sudo bash -s 3.5.0`
+`curl -s https://raw.githubusercontent.com/HarvsG/sbfspot-config/master/sbfspot-config | sudo bash -s 3.5.0`
 
 This tool needs to run as root. Depending on the chosen options, it installs software packages such as sqlite3, mysql-client, mariadb-client and writes to locations where a locked down user can't write. If you're uncomfortable with this, either quit here or have a look at the script first.
 
